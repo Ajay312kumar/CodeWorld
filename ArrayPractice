@@ -1,0 +1,39 @@
+
+print("Hello World")
+
+//Iterate an Array, initialize with it's full name.
+var emptyFloats: Array<Int> = Array()
+emptyFloats = [11,2,3]
+for i in emptyFloats {
+    print("i is = \(i)")
+}
+
+//empty Array Declared
+var someInts: [Int] = []
+print(someInts.count)
+
+//print repeating Numbers.
+var threeDoubles = Array(repeating: 0.0, count: 3)
+print(threeDoubles)
+
+//Adding two Array, And make a new third array.
+
+var array1: [Int] = [1,2,3,4,5]
+print("----- the first array is ------")
+print(array1)
+
+var array2: [Int] = [6,7,8,9,10]
+print("----- the second array is ------")
+print(array2)
+
+var array3 = array1 + array2
+print("----- the third array is ------")
+print(array3)
+
+//Append item in array
+array1.Append(6)
+print(array1)
+
+//insert an item at particular index using insert method
+array1.insert(22, at: 1)
+print(array1)
